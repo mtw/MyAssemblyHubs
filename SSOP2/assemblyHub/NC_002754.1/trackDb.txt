@@ -179,7 +179,7 @@ maxHeightPixels 125:125:11
 group zhang
 
 track zhang_uniq_pos
-bigDataUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/bbi/zhang-remap/vis/D1_R1.pos.pos.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP2/assemblyHub/NC_002754.1/bbi/zhang-remap/vis/D1_R1.pos.pos.bw
 shortLabel zhang uniq pos
 longLabel Zhang pulled down crRNAs uniq pos
 type bigWig
@@ -187,7 +187,7 @@ parent Zhang_uniq
 color 22,0,222
 
 track zhang_uniq_neg
-bigDataUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/bbi/zhang-remap/vis/D1_R1.neg.neg.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP2/assemblyHub/NC_002754.1/bbi/zhang-remap/vis/D1_R1.neg.neg.bw
 shortLabel X1R2 uniq neg
 longLabel Zhang pulled down crRNAs uniq neg
 type bigWig
@@ -215,7 +215,7 @@ maxHeightPixels 125:125:11
 group wurtzel
 
 track D2R1_uniq
-bigDataUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/bbi/wurtzel-2010/D2_R1.uniq.pos.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP2/assemblyHub/NC_002754.1/bbi/wurtzel-2010/D2_R1.uniq.pos.bw
 shortLabel D2R1 uniq
 longLabel D2R1 uniq
 type bigWig
@@ -223,7 +223,7 @@ parent Wurtzel
 color 124,108,195
 
 track D2R2_uniq
-bigDataUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/bbi/wurtzel-2010/D2_R2.uniq.pos.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP2/assemblyHub/NC_002754.1/bbi/wurtzel-2010/D2_R2.uniq.pos.bw
 shortLabel D2R2
 longLabel D2R2
 type bigWig

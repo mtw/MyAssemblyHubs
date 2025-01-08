@@ -1,0 +1,6 @@
+hub T00011 NC_002754.1
+shortLabel S.solfataricus P2
+longLabel T00011 S.solfataricus P2 (NC_002754.1)
+genomesFile genome.txt
+email email
+descriptionUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/description.html

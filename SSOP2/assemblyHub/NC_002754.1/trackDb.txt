@@ -1,0 +1,235 @@
+
+track Refseq_CDS
+longLabel Annotated Refseq CDS
+shortLabel Refseq CDS
+priority 10
+visibility pack
+color 51,102,153
+bigDataUrl bbi/NC_002754.CDS.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Refseq_rRNA
+longLabel Annotated Refseq rRNAs
+shortLabel Refseq rRNA
+priority 20
+visibility pack
+color 194,71,71
+bigDataUrl bbi/NC_002754.rRNA.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Refseq_tRNA
+longLabel Annotated Refseq tRNAs
+shortLabel Refseq tRNA
+priority 30
+visibility squish
+color 198,20,24
+bigDataUrl bbi/NC_002754.tRNA.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Refseq_miscRNA
+longLabel Refseq miscRNA
+shortLabel Refseq miscRNA
+priority 40
+visibility pack
+color 153,102,51
+bigDataUrl bbi/NC_002754.misc_RNA.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annot
+
+track Refseq_ncRNA
+longLabel Annotated Refseq ncRNAs
+shortLabel Refse ncRNA
+priority 50
+visibility squish
+color 183,12,151
+bigDataUrl bbi/NC_002754.ncRNA.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annot
+
+track motifscan_
+longLabel motifscan
+shortLabel motifscan
+priority 60
+visibility dense
+color 13,12,10
+bigDataUrl bbi/fimo_filtered.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+useScore 1
+
+track CRISPR
+longLabel CRISPR Elements
+shortLabel CRISPR
+priority 9
+visibility pack
+color 155,100,17
+bigDataUrl bbi/SSOP2-CRISPR.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Genbank_ncRNA
+longLabel Annotated Genbank ncRNAs
+shortLabel Genbank_ncRNAs
+priority 70
+visibility squish
+color 204,69,12
+bigDataUrl bbi/SSOP2-Genbank-ncRNA.bb
+type bigBed 6 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Rfam_ncRNA
+longLabel Annotated Rfam ncRNAs
+shortLabel Rfam ncRNAs
+priority 75
+visibility squish
+color 11,96,3
+bigDataUrl bbi/SSOP2-Rfam-ncRNA.bb
+type bigBed 6 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Pfam_domains
+longLabel Pfam domain Hits
+shortLabel Pfam domains
+priority 100
+visibility squish
+color 94,4,114
+bigDataUrl bbi/SSOP2-PfamDomains.bb
+type bigBed 6 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track intergenic_regions
+longLabel Intergenic regions
+shortLabel Intergenic
+priority 200
+visibility squish
+color 239,196,52
+bigDataUrl bbi/ALL.intergenic.bb
+type bigBed 6 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track zhang-CMR-offtargets
+longLabel Zhang-2012 CMR off-target regions
+shortLabel Zhang-offtargets
+priority 1000
+visibility squish
+color 244,80,0
+bigDataUrl bbi/D1_R1.uniq.nonCRISPR.merged.bb
+type bigBed 6 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group zhang
+
+
+
+# X1R2
+track Zhang_uniq
+container multiWig
+noInherit on
+shortLabel Zhang uniq
+longLabel crRNAs from CMR pulldown (Zhang-2012) [unique alignments]
+type bigWig
+configurable on
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale on
+windowingFunction maximum
+priority 110
+alwaysZero on
+yLineMark 0
+yLineOnOff on
+maxHeightPixels 125:125:11
+group zhang
+
+track zhang_uniq_pos
+bigDataUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/bbi/zhang-remap/vis/D1_R1.pos.pos.bw
+shortLabel zhang uniq pos
+longLabel Zhang pulled down crRNAs uniq pos
+type bigWig
+parent Zhang_uniq
+color 22,0,222
+
+track zhang_uniq_neg
+bigDataUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/bbi/zhang-remap/vis/D1_R1.neg.neg.bw
+shortLabel X1R2 uniq neg
+longLabel Zhang pulled down crRNAs uniq neg
+type bigWig
+parent Zhang_uniq
+color 100,85,250
+
+# D2
+track Wurtzel
+container multiWig
+noInherit on
+shortLabel Wurtzel-2010 uniq
+longLabel Wurtzel-2010 transcriptome [unique alignments]
+type bigWig
+configurable on
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale on
+windowingFunction maximum
+priority 2000
+alwaysZero on
+yLineMark 0
+yLineOnOff on
+maxHeightPixels 125:125:11
+group wurtzel
+
+track D2R1_uniq
+bigDataUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/bbi/wurtzel-2010/D2_R1.uniq.pos.bw
+shortLabel D2R1 uniq
+longLabel D2R1 uniq
+type bigWig
+parent Wurtzel
+color 124,108,195
+
+track D2R2_uniq
+bigDataUrl http://genome.cibiv.univie.ac.at/webdav/other/SSO/assemblyHub/NC_002754.1/bbi/wurtzel-2010/D2_R2.uniq.pos.bw
+shortLabel D2R2
+longLabel D2R2
+type bigWig
+parent Wurtzel
+color 129,76,158
+
+
+
+

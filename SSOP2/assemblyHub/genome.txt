@@ -1,0 +1,10 @@
+genome sulSolP2
+trackDb NC_002754.1/trackDb.txt
+groups NC_002754.1/groups.txt
+description Sulfolobus solfataricus P2 NC_002754.1
+twoBitPath NC_002754.1/NC_002754.1.2bit
+organism organism
+defaultPos NC_002754.1: 15000-18500
+orderKey 10
+scientificName scientific name not set
+htmlPath NC_002754.1/description.html

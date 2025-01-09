@@ -1,6 +1,6 @@
 hub S.solfataricus P1
 shortLabel S.solfataricus P1
-longLabel J00050 S.solfataricus P1
+longLabel S.solfataricus P1
 genomesFile genome.txt
 email michael.wolfinger@univie.ac.at
 descriptionUrl http://genome.cibiv.univie.ac.at/webdav/other/SSOP1/assemblyHub_SSOP1/description.html

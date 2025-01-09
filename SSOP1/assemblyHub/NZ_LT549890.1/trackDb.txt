@@ -1,0 +1,277 @@
+track Refseq_CDS
+longLabel Annotated Refseq CDS
+shortLabel Refseq CDS
+priority 10
+visibility pack
+color 51,102,153
+bigDataUrl bbi/NZ_LT549890.CDS.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Refseq_rRNA
+longLabel Annotated Refseq rRNAs
+shortLabel Refseq rRNA
+priority 20
+visibility pack
+color 194,71,71
+bigDataUrl bbi/NZ_LT549890.rRNA.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Refseq_tRNA
+longLabel Annotated Refseq tRNAs
+shortLabel Refseq tRNA
+priority 30
+visibility squish
+color 198,20,24
+bigDataUrl bbi/NZ_LT549890.tRNA.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annotation
+
+track Refseq_repeatRNA
+longLabel Refseq repeats
+shortLabel Refseq repeat region
+priority 40
+visibility pack
+color 153,102,51
+bigDataUrl bbi/NZ_LT549890.repeat_region.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annot
+
+track Refseq_ncRNA
+longLabel Annotated Refseq ncRNAs
+shortLabel Refse ncRNA
+priority 50
+visibility squish
+color 183,12,151
+bigDataUrl bbi/NZ_LT549890.ncRNA.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annot
+
+track Refseq_igr
+longLabel Computed intergenig regions
+shortLabel igr
+priority 12
+visibility pack
+color 13,112,51
+bigDataUrl bbi/NZ_LT549890.igr.bb
+type bigBed 12 .
+autoScale off
+bedNameLabel Gene Id
+searchIndex name
+group annot
+
+#==================================
+# D1 
+#track D1uniq
+#container multiWig
+#noInherit on
+#shortLabel D1 uniq norm
+#longLabel normalized RNA-seq expression D1 (WT) [unique alignments]
+#type bigWig
+#configurable on
+#visibility full
+#aggregate transparentOverlay
+#showSubtrackColorOnUi on
+#autoScale on
+#windowingFunction maximum
+#priority 100
+#alwaysZero on
+#yLineMark 0
+#yLineOnOff on
+#maxHeightPixels 125:125:11
+#group J00050
+
+#track D1R1_uniq_pos
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R1.pos.pos.bw
+#shortLabel D1R1 uniq pos
+#longLabel D1R1 uniq pos
+#type bigWig
+#parent D1uniq
+#color 123,194,18
+
+#track D1R1_uniq_neg
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R1.neg.neg.bw
+#shortLabel D1R1 uniq neg
+#longLabel D1R1 uniq neg
+#type bigWig
+#parent D1uniq
+#color 95,187,70
+
+#track D1R2_uniq_pos
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R2.pos.pos.bw
+#shortLabel D1R2 uniq pos
+#longLabel D1R2 uniq pos
+#type bigWig
+#parent D1uniq
+#color 123,194,18
+
+#track D1R2_uniq_neg
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R2.neg.neg.bw
+#shortLabel D1R2 uniq neg
+#longLabel D1R2 uniq neg
+#type bigWig
+#parent D1uniq
+#color 95,187,70
+
+#track D1R3_uniq_pos
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R3.pos.pos.bw
+#shortLabel D1R3 uniq pos
+#longLabel D1R3 uniq pos
+#type bigWig
+#parent D1uniq
+#color 123,194,18
+
+#track D1R3_uniq_neg
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R3.neg.neg.bw
+#shortLabel D1R3 uniq neg
+#longLabel D1R3 uniq neg
+#type bigWig
+#parent D1uniq
+#color 95,187,70
+
+# D2
+#track D2uniq
+#container multiWig
+#noInherit on
+#shortLabel D2 uniq norm
+#longLabel normalized RNA-seq expression D2 (sm2 silenced) [unique alignments]
+#type bigWig
+#configurable on
+#visibility full
+#aggregate transparentOverlay
+#showSubtrackColorOnUi on
+#autoScale on
+#windowingFunction maximum
+#priority 200
+#alwaysZero on
+#yLineMark 0
+#yLineOnOff on
+#maxHeightPixels 125:125:11
+#group J00050
+
+#track D2R1_uniq_pos
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R1.pos.pos.bw
+#shortLabel D2R1 uniq pos
+#longLabel D2R1 uniq pos
+#type bigWig
+#parent D2uniq
+#color 20,116,185
+
+#track D2R1_uniq_neg
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R1.neg.neg.bw
+#shortLabel D2R1 uniq neg
+#longLabel D2R1 uniq neg
+#type bigWig
+#parent D2uniq
+#color 76,132,198
+
+#track D2R2_uniq_pos
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R2.pos.pos.bw
+#shortLabel D2R2 uniq pos
+#longLabel D2R2 uniq pos
+#type bigWig
+#parent D2uniq
+#color 20,116,185
+
+#track D2R2_uniq_neg
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R2.neg.neg.bw
+#shortLabel D2R2 uniq neg
+#longLabel D2R2 uniq neg
+#type bigWig
+#parent D2uniq
+#color 76,132,198
+
+#track D2R3_uniq_pos
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R3.pos.pos.bw
+#shortLabel D2R3 uniq pos
+#longLabel D2R3 uniq pos
+#type bigWig
+#parent D2uniq
+#color 20,116,185
+
+#track D2R3_uniq_neg
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R3.neg.neg.bw
+#shortLabel D2R3 uniq neg
+#longLabel D2R3 uniq neg
+#type bigWig
+#parent D2uniq
+#color 76,132,198
+
+#---- reads
+# reads
+#track D1_R1_readsSM2
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/SM2/bam/D1_R1.uniq.SM2.bam
+#shortLabel D1_R1 reads
+#longLabel D1_R1 reads
+#type bam
+#pairEndsByName 1
+#pairSearchRange 3000000
+#visibility dense
+#priority 1010
+
+#track D1_R2_readsSM2
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/SM2/bam/D1_R2.uniq.SM2.bam
+#shortLabel D1_R2 reads
+#longLabel D1_R2 reads
+#type bam
+#pairEndsByName 1
+#pairSearchRange 3000000
+#visibility dense
+#priority 1020
+
+#track D1_R3_readsSM2
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/SM2/bam/D1_R3.uniq.SM2.bam
+#shortLabel D1_R3 reads
+#longLabel D1_R3 reads
+#type bam
+#pairEndsByName 1
+#pairSearchRange 3000000
+#visibility dense
+#priority 1030
+
+#track D2_R1_readsSM2
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/SM2/bam/D2_R1.uniq.SM2.bam
+#shortLabel D2_R1 reads
+#longLabel D2_R1 reads
+#type bam
+#pairEndsByName 1
+#pairSearchRange 3000000
+#visibility dense
+#priority 2010
+
+#track D2_R2_readsSM2
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/SM2/bam/D2_R2.uniq.SM2.bam
+#shortLabel D2_R2 reads
+#longLabel D2_R2 reads
+#type bam
+#pairEndsByName 1
+#pairSearchRange 3000000
+#visibility dense
+#priority 2020
+
+#track D2_R3_readsSM2
+#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/SM2/bam/D2_R3.uniq.SM2.bam
+#shortLabel D2_R3 reads
+#longLabel D2_R3 reads
+#type bam
+#pairEndsByName 1
+#pairSearchRange 3000000
+#visibility dense
+#priority 2030
+

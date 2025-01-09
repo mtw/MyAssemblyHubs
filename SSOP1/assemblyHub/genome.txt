@@ -1,0 +1,10 @@
+genome sulSolP1
+trackDb NZ_LT549890.1/trackDb.txt
+groups NZ_LT549890.1/groups.txt
+description NZ_LT549890.1
+twoBitPath NZ_LT549890.1/NZ_LT549890.1.2bit
+organism S.solfataricus P1
+defaultPos NZ_LT549890.1:10000-20000
+orderKey 10
+scientificName Sulfolobus solfataricus P1
+htmlPath NZ_LT549890.1/description.html

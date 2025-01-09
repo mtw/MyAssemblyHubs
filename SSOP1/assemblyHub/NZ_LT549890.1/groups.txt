@@ -1,0 +1,10 @@
+name annotation
+label Annotation
+priority 1
+defaultIsClosed 0
+
+
+name J00050
+label J00050
+priority 2
+defaultIsClosed 0

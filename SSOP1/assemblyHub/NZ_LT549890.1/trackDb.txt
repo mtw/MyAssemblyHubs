@@ -78,32 +78,32 @@ group annot
 
 #==================================
 # D1 
-#track D1uniq
-#container multiWig
-#noInherit on
-#shortLabel D1 uniq norm
-#longLabel normalized RNA-seq expression D1 (WT) [unique alignments]
-#type bigWig
-#configurable on
-#visibility full
-#aggregate transparentOverlay
-#showSubtrackColorOnUi on
-#autoScale on
-#windowingFunction maximum
-#priority 100
-#alwaysZero on
-#yLineMark 0
-#yLineOnOff on
-#maxHeightPixels 125:125:11
-#group J00050
+track D1uniq
+container multiWig
+noInherit on
+shortLabel D1 uniq norm
+longLabel normalized RNA-seq expression D1 (WT) [unique alignments]
+type bigWig
+configurable on
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale on
+windowingFunction maximum
+priority 100
+alwaysZero on
+yLineMark 0
+yLineOnOff on
+maxHeightPixels 125:125:11
+group J00050
 
-#track D1R1_uniq_pos
-#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R1.pos.pos.bw
-#shortLabel D1R1 uniq pos
-#longLabel D1R1 uniq pos
-#type bigWig
-#parent D1uniq
-#color 123,194,18
+track D1R1_uniq_pos
+bigDataUrl http://rna-bioinformatics.com/SSOP2/assemblyHub/NZ_LT549890.1/bbi/Zink2023.bw
+shortLabel D1R1 uniq pos
+longLabel D1R1 uniq pos
+type bigWig
+parent D1uniq
+color 123,194,18
 
 #track D1R1_uniq_neg
 #bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R1.neg.neg.bw

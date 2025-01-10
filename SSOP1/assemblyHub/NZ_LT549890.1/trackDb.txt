@@ -78,11 +78,11 @@ group annot
 
 #==================================
 # D1 
-track D1uniq
+track Zink2023
 container multiWig
 noInherit on
-shortLabel D1 uniq norm
-longLabel normalized RNA-seq expression D1 (WT) [unique alignments]
+shortLabel Zink-2023
+longLabel Zink-2023 alignments
 type bigWig
 configurable on
 visibility full
@@ -95,23 +95,23 @@ alwaysZero on
 yLineMark 0
 yLineOnOff on
 maxHeightPixels 125:125:11
-group J00050
+group pulldown
 
-track D1R1_uniq_pos
-bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.bw
-shortLabel D1R1 uniq pos
-longLabel D1R1 uniq pos
+track Zink2023_pos
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.pos.bw
+shortLabel Zink2023 pos
+longLabel Zink2023 pos
 type bigWig
-parent D1uniq
+parent Zink2023
 color 123,194,18
 
-#track D1R1_uniq_neg
-#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R1.neg.neg.bw
-#shortLabel D1R1 uniq neg
-#longLabel D1R1 uniq neg
-#type bigWig
-#parent D1uniq
-#color 95,187,70
+track Zink2023_neg
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.neg.bw
+shortLabel Zink2023 neg
+longLabel Zink2023 neg
+type bigWig
+parent Zink2023
+color 95,187,70
 
 #track D1R2_uniq_pos
 #bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R2.pos.pos.bw

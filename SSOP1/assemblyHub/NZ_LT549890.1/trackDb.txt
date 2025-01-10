@@ -98,7 +98,7 @@ maxHeightPixels 125:125:11
 group J00050
 
 track D1R1_uniq_pos
-bigDataUrl http://rna-bioinformatics.com/SSOP2/assemblyHub/NZ_LT549890.1/bbi/Zink2023.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.bw
 shortLabel D1R1 uniq pos
 longLabel D1R1 uniq pos
 type bigWig

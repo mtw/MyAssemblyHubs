@@ -82,7 +82,7 @@ track Zink2023
 container multiWig
 noInherit on
 shortLabel Zink-2023
-longLabel Zink-2023 alignments
+longLabel Zink-2023 [unique alignments]
 type bigWig
 configurable on
 visibility full
@@ -97,89 +97,57 @@ yLineOnOff on
 maxHeightPixels 125:125:11
 group pulldown
 
-track Zink2023_pos
+track Zink2023_uniq_pos
 bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.pos.bw
-shortLabel Zink2023 pos
-longLabel Zink2023 pos
+shortLabel Zink2023 uniq pos
+longLabel Zink2023 uniq pos
 type bigWig
 parent Zink2023
 color 123,194,18
 
-track Zink2023_neg
+track Zink2023_uniq_neg
 bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.neg.bw
-shortLabel Zink2023 neg
-longLabel Zink2023 neg
+shortLabel Zink2023 uniq neg
+longLabel Zink2023 uniq neg
 type bigWig
 parent Zink2023
 color 95,187,70
 
-#track D1R2_uniq_pos
-#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R2.pos.pos.bw
-#shortLabel D1R2 uniq pos
-#longLabel D1R2 uniq pos
-#type bigWig
-#parent D1uniq
-#color 123,194,18
-
-#track D1R2_uniq_neg
-#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R2.neg.neg.bw
-#shortLabel D1R2 uniq neg
-#longLabel D1R2 uniq neg
-#type bigWig
-#parent D1uniq
-#color 95,187,70
-
-#track D1R3_uniq_pos
-#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R3.pos.pos.bw
-#shortLabel D1R3 uniq pos
-#longLabel D1R3 uniq pos
-#type bigWig
-#parent D1uniq
-#color 123,194,18
-
-#track D1R3_uniq_neg
-#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D1_R3.neg.neg.bw
-#shortLabel D1R3 uniq neg
-#longLabel D1R3 uniq neg
-#type bigWig
-#parent D1uniq
-#color 95,187,70
-
 # D2
-#track D2uniq
-#container multiWig
-#noInherit on
-#shortLabel D2 uniq norm
-#longLabel normalized RNA-seq expression D2 (sm2 silenced) [unique alignments]
-#type bigWig
-#configurable on
-#visibility full
-#aggregate transparentOverlay
-#showSubtrackColorOnUi on
-#autoScale on
-#windowingFunction maximum
-#priority 200
-#alwaysZero on
-#yLineMark 0
-#yLineOnOff on
-#maxHeightPixels 125:125:11
-#group J00050
+track White2017
+container multiWig
+noInherit on
+shortLabel White-2017
+longLabel White-2017 [unique alignments]
+type bigWig
+configurable on
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale on
+windowingFunction maximum
+priority 200
+alwaysZero on
+yLineMark 0
+yLineOnOff on
+maxHeightPixels 125:125:11
+group J00050
 
-#track D2R1_uniq_pos
-#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R1.pos.pos.bw
-#shortLabel D2R1 uniq pos
-#longLabel D2R1 uniq pos
-#type bigWig
-#parent D2uniq
-#color 20,116,185
+track White2017_uniq_pos
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/White2017.pos.bw
+shortLabel White2017 uniq pos
+longLabel White2017 uniq pos
+type bigWig
+parent White2017
+color 20,116,185
 
-#track D2R1_uniq_neg
-#bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R1.neg.neg.bw
-#shortLabel D2R1 uniq neg
-#longLabel D2R1 uniq neg
-#type bigWig
-#parent D2uniq
-#color 76,132,198
+track White2017_uniq_neg
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/White2017.neg.bw
+shortLabel White2017 uniq neg
+longLabel White2017 uniq neg
+type bigWig
+parent White2017
+color 76,132,198
 
 #track D2R2_uniq_pos
 #bigDataUrl http://genome.cibiv.univie.ac.at/webdav/files/SFB/J00050/map-segemehl/uniq/D2_R2.pos.pos.bw

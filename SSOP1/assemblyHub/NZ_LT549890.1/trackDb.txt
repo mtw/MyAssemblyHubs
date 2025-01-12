@@ -131,7 +131,7 @@ alwaysZero on
 yLineMark 0
 yLineOnOff on
 maxHeightPixels 125:125:11
-group J00050
+group pulldown
 
 track White2017_uniq_pos
 bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/White2017.pos.bw

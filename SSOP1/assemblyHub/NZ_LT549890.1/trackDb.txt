@@ -98,7 +98,7 @@ maxHeightPixels 125:125:11
 group pulldown
 
 track Zink2023_uniq_pos
-bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.pos.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.neg.bw
 shortLabel Zink2023 uniq pos
 longLabel Zink2023 uniq pos
 type bigWig
@@ -106,7 +106,7 @@ parent Zink2023
 color 123,194,18
 
 track Zink2023_uniq_neg
-bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.neg.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/Zink2023.pos.bw
 shortLabel Zink2023 uniq neg
 longLabel Zink2023 uniq neg
 type bigWig
@@ -134,7 +134,7 @@ maxHeightPixels 125:125:11
 group pulldown
 
 track White2017_uniq_pos
-bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/White2017.pos.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/White2017.neg.bw
 shortLabel White2017 uniq pos
 longLabel White2017 uniq pos
 type bigWig
@@ -142,7 +142,7 @@ parent White2017
 color 20,116,185
 
 track White2017_uniq_neg
-bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/White2017.neg.bw
+bigDataUrl http://rna-bioinformatics.com/SSOP1/assemblyHub/NZ_LT549890.1/bbi/White2017.pos.bw
 shortLabel White2017 uniq neg
 longLabel White2017 uniq neg
 type bigWig
